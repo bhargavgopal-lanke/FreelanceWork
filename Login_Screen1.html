@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1 class="login-heading">Login</h1>
+      <div class="form-group">
+        <select name="cars" id="cars" class="form-control">
+          <option value="societyname">Society Name</option>
+          <option value="One">One</option>
+          <option value="Two">Two</option>
+          <option value="Three">Three</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input
+          type="text"
+          name="username"
+          class="form-control"
+          placeholder="User Name"
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="password"
+          name="password"
+          class="form-control"
+          placeholder="Password"
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="date"
+          id="loginDate"
+          class="form-control"
+          onblur="addPlaceholder('loginDate')"
+          onfocus="removePlaceHolder('loginDate')"
+          name="loginDate"
+          placeholder="Login Date"
+        />
+      </div>
+      <button type="submit" class="login-btn">LOGIN</button>
+      <div class="form-group">
+        <input
+          type="date"
+          id="lastlogindate"
+          name="lastlogindate"
+          class="form-control"
+          onblur="addPlaceholder('lastlogindate')"
+          onfocus="removePlaceHolder('lastlogindate')"
+          placeholder="Last Login Date"
+        />
+      </div>
+    </div>
+
+    <script src="./Scripts/login.js"></script>
+  </body>
+</html>
