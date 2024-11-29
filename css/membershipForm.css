@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.register-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 650px;
+  box-sizing: border-box;
+  margin: 40px auto;
+}
+
+.register-form h2 {
+  margin-top: 0;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"],
+.register-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.register-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.register-form .checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.register-form .checkbox-group input {
+  margin-right: 10px;
+}
+
+.register-form .checkbox-group label {
+  margin: 0;
+}
+
+.register-form .birthdate-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-form .birthdate-group select {
+  width: 30%;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #333;
+}
+
+.register-form .footer-text {
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+  margin-top: 10px;
+}
