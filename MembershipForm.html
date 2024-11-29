@@ -14,24 +14,146 @@
     <div class="register-form">
       <h2>General Membership</h2>
       <form>
-        <label for="first-name">First name*</label>
-        <input type="text" id="first-name" name="first-name" required />
-
-        <label for="last-name">Last name*</label>
-        <input type="text" id="last-name" name="last-name" required />
-
-        <label for="email">Email address*</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="password">Password (6 to 12 characters)*</label>
-        <input type="password" id="password" name="password" required />
-
-        <div class="checkbox-group">
-          <input type="checkbox" id="rewards" name="rewards" />
-          <label for="rewards"
-            >Yes, join Sephora’s free rewards program and earn points on every
-            purchase.</label
-          >
+        <div class="form-group">
+          <input
+            type="text"
+            id="accountnumber"
+            class="form-control"
+            name="accountnumber"
+            placeholder="Account Number"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="fatherofHusband"
+            class="form-control"
+            name="fatherofHusband"
+            placeholder="Father of Husband"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="date"
+            id="admissionDate"
+            class="form-control"
+            name="admissionDate"
+            placeholder="Admission Date"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="nomineeName"
+            class="form-control"
+            name="nomineeName"
+            placeholder="Nominee Name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            name="name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="age"
+            class="form-control"
+            name="age"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <select name="cars" id="cars" class="form-control">
+            <option value="societyname">Relation</option>
+            <option value="One">One</option>
+            <option value="Two">Two</option>
+            <option value="Three">Three</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input
+            type="date"
+            id="dob"
+            class="form-control"
+            name="dob"
+            placeholder="Dob"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="aadharNumber"
+            class="form-control"
+            name="aadharNumber"
+            placeholder="Aadhar Number"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="Address"
+            class="form-control"
+            name="Address"
+            placeholder="Address"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="savingsPerMonth"
+            class="form-control"
+            name="savingsPerMonth"
+            placeholder="Savings per Month"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="phoneNumber"
+            class="form-control"
+            name="phoneNumber"
+            placeholder="Phone Number"
+          />
+        </div>
+        <div class="form-group">
+          <select name="cars" id="cars" class="form-control">
+            <option value="occupation">Occupation</option>
+            <option value="One">One</option>
+            <option value="Two">Two</option>
+            <option value="Three">Three</option>
+          </select>
+        </div>
+        <div class="gender-group-sec">
+          <fieldset>
+            <legend>Gender</legend>
+            <div class="checkbox-group">
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="Male"
+                checked
+              />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="Female" />
+              <label for="female">Female</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Pension</legend>
+            <div class="checkbox-group">
+              <input type="radio" id="no" name="pension" value="No" checked />
+              <label for="no">No</label>
+              <input type="radio" id="yes" name="pension" value="Yes" />
+              <label for="yes">Yes</label>
+            </div>
+          </fieldset>
         </div>
 
         <label for="birthdate"
