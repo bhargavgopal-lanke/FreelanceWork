@@ -156,24 +156,6 @@
           </fieldset>
         </div>
 
-        <label for="birthdate"
-          >Enter your birthdate to receive a free gift every year.</label
-        >
-        <div class="birthdate-group">
-          <select id="birth-month" name="birth-month">
-            <option value="">Month</option>
-            <!-- Add month options here -->
-          </select>
-          <select id="birth-day" name="birth-day">
-            <option value="">Day</option>
-            <!-- Add day options here -->
-          </select>
-          <select id="birth-year" name="birth-year">
-            <option value="">Year</option>
-            <!-- Add year options here -->
-          </select>
-        </div>
-
         <div class="checkbox-group">
           <input
             type="checkbox"
@@ -181,22 +163,23 @@
             name="subscribe-emails"
             checked
           />
-          <label for="subscribe-emails"
-            >Yes, I would like to receive Sephora emails (you can unsubscribe at
-            any time).</label
-          >
+          <label for="subscribe-emails">Half Savings return</label>
+          <input
+            type="checkbox"
+            id="subscribe-emails"
+            name="subscribe-emails"
+            checked
+          />
+          <label for="subscribe-emails">Only Lras Vapaas</label>
         </div>
-
-        <label for="zip-code">ZIP code (optional)</label>
-        <input type="text" id="zip-code" name="zip-code" />
-
-        <button type="submit">REGISTER</button>
+        <div class="btn-group">
+          <button type="submit">Save</button>
+          <button type="submit">Edit</button>
+          <button type="submit">Delete</button>
+          <button type="submit">Cancel</button>
+          <button type="submit">DropOut</button>
+        </div>
       </form>
-      <div class="footer-text">
-        This site is protected by reCAPTCHA and the Google
-        <a href="#">Privacy Policy</a> and
-        <a href="#">Terms of Service</a> apply.
-      </div>
     </div>
   </body>
 </html>
