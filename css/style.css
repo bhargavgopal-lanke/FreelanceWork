@@ -5,7 +5,7 @@ body {
   height: 100vh;
   margin: 0;
   background: linear-gradient(135deg, #fff 50%, #1b8af1 25%, #b58ded 5%);
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", serif;
 }
 
 .login-container {
