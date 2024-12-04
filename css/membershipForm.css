@@ -122,3 +122,14 @@ body {
     flex-basis: 100%;
   }
 }
+
+/* General Form css start */
+
+.cash-type-sec .select-form-group {
+  width: 100%;
+}
+
+.cash-type-sec {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General Loans</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/membershipForm.css" />
+  </head>
+  <body>
+    <div class="register-form">
+      <h2>General Loans</h2>
+      <form>
+        <div class="form-group">
+          <input
+            type="text"
+            id="accountnumber"
+            class="form-control"
+            name="accountnumber"
+            placeholder="Account Number"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="Name"
+            class="form-control"
+            name="Name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="loanAmount"
+            class="form-control"
+            name="loanAmount"
+            placeholder="Loan Amount"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="date"
+            id="loanDate"
+            class="form-control"
+            name="loanDate"
+            placeholder="Loan Date"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="date"
+            id="repayDate"
+            class="form-control"
+            name="repayDate"
+            placeholder="Loan Date"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="ROI"
+            class="form-control"
+            name="ROI"
+            placeholder="ROI"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="installments"
+            class="form-control"
+            name="installments"
+            placeholder="Installments"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="emi"
+            class="form-control"
+            name="emi"
+            placeholder="EMI"
+          />
+        </div>
+        <div class="form-group">
+          <select name="loanReason" id="cars" class="form-control">
+            <option value="relation">Loan Reason</option>
+            <option value="One">One</option>
+            <option value="Two">Two</option>
+            <option value="Three">Three</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select name="subReason" id="cars" class="form-control">
+            <option value="relation">Sub Reason</option>
+            <option value="One">One</option>
+            <option value="Two">Two</option>
+            <option value="Three">Three</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="gaurantorOne"
+            class="form-control"
+            name="gaurantorOne"
+            placeholder="Gaurantor 1"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="gaurantorTwo"
+            class="form-control"
+            name="gaurantorTwo"
+            placeholder="Gaurantor 2"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="voucherNo"
+            class="form-control"
+            name="voucherNo"
+            placeholder="Voucher No"
+          />
+        </div>
+
+        <div class="gender-group-sec">
+          <fieldset class="cash-type-sec">
+            <legend>Cash Type</legend>
+            <div class="checkbox-group">
+              <input
+                type="radio"
+                id="cash"
+                name="cashType"
+                value="Cash"
+                checked
+              />
+              <label for="cash">Cash</label>
+              <input type="radio" id="bank" name="cashType" value="Bank" />
+              <label for="bank">Bank</label>
+              <input type="radio" id="both" name="cashType" value="Both" />
+              <label for="both">Both</label>
+            </div>
+            <div class="select-form-group">
+              <select name="both" id="cars" class="form-control">
+                <option value="occupation"></option>
+                <option value="One">One</option>
+                <option value="Two">Two</option>
+                <option value="Three">Three</option>
+              </select>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="checkbox-group savings-checkbox">
+          <input
+            type="checkbox"
+            id="multiloanCheck"
+            name="multiloanCheck"
+            checked
+          />
+          <label for="subscribe-emails">Multi Loan</label>
+        </div>
+        <div class="btn-group">
+          <button type="submit">Save</button>
+          <button type="submit">Edit</button>
+          <button type="submit">Delete</button>
+          <button type="submit">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
